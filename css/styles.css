@@ -1,0 +1,29 @@
+body {
+  background-color: #95BF74;
+}
+
+.jumbotron {
+  background-color: #grey;
+  margin: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-width: 10px;
+  border-color: #black;
+}
+
+.computerspeak {
+  display: none;
+  background-color: #lightgrey;
+  margin: 15px;;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-width: 10px;
+  border-color: #black;
+}
+
+.button {
+  border: none;
+  color: white;
+  margin-top: 10px;
+  background-color: #lightblue;
+}

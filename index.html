@@ -11,14 +11,22 @@
 
   <body>
   <div class="container">
-    <div class="jumbotron jumbotron-fluid">
+
+    <div class="jumbotron">
       <h1>The HALsplainer...</h1>
         <p>Enter a number, and let your computer overlord, HAL, explain what it means.</p>
        </div>
-     </div>
+    <form id="input-form">
+      <label for="userNumber">TYPE NOW, HUMAN!</label>
+      <input id="userNum" type="text" class="inputHere">
 
-     // form goes here 
+     <button id="clickNow" type="text" class="btn">Click<strong> NOW,</strong, human!</button>
+     </form>
 
-
-     </body>
+   <div class="computerSpeak">
+     <h4>Well, actually...</h4>
+     <p>I think you meant <span id="response"> </span></p>
+   </div>
+  </div>
+ </body>
 </html>
