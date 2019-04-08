@@ -1,5 +1,6 @@
 body {
-  background-color: #95BF74;
+  margin: 5%
+  padding: 20px;
 }
 
 .jumbotron {
@@ -11,7 +12,7 @@ body {
   border-color: #black;
 }
 
-.computerspeak {
+#computerSpeak {
   display: none;
   background-color: #lightgrey;
   margin: 15px;;
@@ -24,6 +25,6 @@ body {
 .button {
   border: none;
   color: white;
-  margin-top: 10px;
+  margin-top: 15px;
   background-color: #lightblue;
 }
