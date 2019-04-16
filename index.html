@@ -12,23 +12,28 @@
  </head>
 
   <body>
-  <div class="container">
-
     <div class="jumbotron">
       <h1>The HALsplainer...</h1>
-        <p>Enter a number, and let your computer overlord, HAL, explain what it means.</p>
+        <p>Enter a number, and let your computer overlord, HAL, explain what it means.
+        </p>
     </div>
-
+  </div>
+  <div class="container">
     <form id="formHal">
-    <input id="userNum" class="form-control rounded" type="number" placeholder="TYPE NOW, HUMAN!" required><br>
+    <p><label>Tell me a number you are thinking of, and I will tell you what it <b>REALLY</b> means!</label></p>
 
-   <button class="btn btn-primary btn-lg" style="float: left;" type=
-     "submit">Translate!</button>
+    <p><input type="text" name="name" placeholder="Number" id="playerNum"></p>
+
+    <button type="submit" class="btn btn-primary btn-lg">Click NOW, HUMAN!!</button>
    </form><br><br>
+  <div id="intro">
+    <ul></ul>
+  </div>
+   <div id="result">
+   <h4>Well, actually...</h4><br>
+   <p> <span class="actually"> </span></p>
 
-   <div id="computerSpeak">
-   <h4>Well, actually...</h4>
-   </div>
+    </div>
   </div>
  </body>
 </html>

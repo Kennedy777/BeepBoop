@@ -1,30 +1,36 @@
+html {
+  height: 100%;
+  background: url("../images/hal.jpg") no-repeat center center;
+  background-size: cover;
+  background-position-y: inherit;
+  font-family: sans-serif;
+  color: blue;
+}
+#container {
+  padding: 15px;
+  margin: 15px;
+}
 body {
-  margin: 5%
-  padding: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .jumbotron {
-  background-color: #grey;
-  margin: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background-color: red;
+  margin: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-width: 10px;
   border-color: #black;
 }
 
-#computerSpeak {
+.result {
   display: none;
-  background-color: #lightgrey;
-  margin: 15px;;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-width: 10px;
-  border-color: #black;
 }
 
 .button {
   border: none;
   color: white;
   margin-top: 15px;
-  background-color: #lightblue;
+  /* background-color: #lightblue; */
 }
