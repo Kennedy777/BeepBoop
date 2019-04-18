@@ -11,6 +11,8 @@ Technologies used:
 HTML, CSS, Javascript, Bootstrap, jQuery
 
 Installation
+
+Open: https://kennedy777.github.io/BeepBoop/, or 
 Clone from: https://github.com/Kennedy777/beepboop, open index.html in any browser
 
 Enter a number to get a message from the computer based on the following:
@@ -36,3 +38,5 @@ using an (var i=0; i<=[value]; i++);
 - If it contains 2 ==> "Boop!", if 1 ==> "Beep!",
 - if there's no 1, 2, or 3 in the number, then generate the number with no replacement.
 - Return the numbers (with or without substitutions) to the user.
+
+MIT licence, &copy;Marguerite Kennedy 2019
