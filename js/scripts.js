@@ -1,18 +1,18 @@
 // Business logic
   
      var userResult = [];
-     function Numbers  = (originalInput){
-        return/\d.test(originalInput);
+     function Numbers(originalInput){
+        return originalInput;
      }
 
      function beepBoop(originalInput){
     
      for (var i = 0; i <=originalInput; i++) {
-      if (i.toString().includes('3')) {
+      if (i.includes(3)) {
         userResult.push("I'm sorry, Dave, I can't do that.");
-      } else if(i.toString().includes("2")) {
+      } else if(i.includes(2)) {
         userResult.push("Boop!");
-      } else if(i.toString().includes("1")){
+      } else if(i.includes(1)){
          userResult.push("Beep!");
         } else {
           userResult.push(i);
@@ -25,7 +25,7 @@
  $(document).ready(function(){
     $("#formHal").submit(function(event){
   
-    var originalInput =parseInt($("input#playerNum").val());
+    var originalInput =parseInt($("input#userInput).val());
     var isNumber=Numbers(originalInput);
     var initialOutput= beepBoop(originalInput)
    // $("#formHal")[0].reset();
@@ -39,13 +39,9 @@
     } else if (originalInput<1){
       alert("Silly human. You need to use positive numbers.")
     } else {
-
      $("#result").append(finalOutput);
-    input.forEach(function() {
-      // $("#result").append("<li>" + num + "</li>");
-      });
-     $("#result").show();
+     $(".output").show();
 
      event.preventDefault();
-    });
+     });
   });

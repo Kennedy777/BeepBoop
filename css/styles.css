@@ -1,32 +1,37 @@
-/* html {
+ html {
   height: 100%;
   font-family: sans-serif;
-  color: blue;
-} */
+} 
+
 #container {
   padding: 10px;
   margin: 10px;
 }
+
 body {
-  margin: 0;
-  padding: 0;
+  margin: 20px;
+  padding: 10px;
 }
 
 .jumbotron {
+  color: red; 
   background: url("../images/hal.jpg") no-repeat center center;
   margin: 0;
   padding-top:10px;
-  padding-bottom: 10px
-  font: red; 
+  padding-bottom: 10px;
  }
 
-.output well {
+.output  {
   display: none;
 }
 
 .button {
   border: none;
   color: white;
+  float: center
   margin-top: 15px;
-  /* background-color: #lightblue; */
+}
+
+#result {
+  display: none;
 }
