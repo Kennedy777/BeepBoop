@@ -10,30 +10,44 @@
    <script src="js/scripts.js"></script>
    <title>Epicodus Week 3 Independent Project</title>
  </head>
-
   <body>
+
+    <div class="container">
     <div class="jumbotron">
       <h1>The HALsplainer...</h1>
-        <p>Enter a number, and let your computer overlord, HAL, explain what it means.
-        </p>
     </div>
-  </div>
-  <div class="container">
+     <div class="row">
+      <div class="panel panel-info">
+          <div class="panel-heading"><h3>Are you ready, Dave?</h3></div>
+          <div class="panel-body">
+          <h4>Tell me a number you are thinking of, and I will tell you what it <b>REALLY</b> means!</h4>
+        </div>
+      </div>
+
     <form id="formHal">
-    <p><label>Tell me a number you are thinking of, and I will tell you what it <b>REALLY</b> means!</label></p>
+    <div class="form-group">      </div>
+     <label for="playerNum"<h4>Enter here:</h4></label> <br>
 
-    <p><input type="text" name="name" placeholder="Number" id="playerNum"></p>
-
-    <button type="submit" class="btn btn-primary btn-lg">Click NOW, HUMAN!!</button>
-   </form><br><br>
-  <div id="intro">
-    <ul></ul>
-  </div>
-   <div id="result">
-   <h4>Well, actually...</h4><br>
-   <p> <span class="actually"> </span></p>
-
+    <p><input id="userInput" type="text" onClick="this.form.reset()">
     </div>
+    <button type="submit" class="btn btn-primary btn-lg">Click NOW!!</button>
+  
+  </form><br><br>
+    </div>
+
+  <div class="col-md-6">
+  <div class="output well">
+   <p><strong>Well, actually...</strong>I think you meant to say</p>
+   <ul id="result">
+    </ul>
+   </div>
+  </div>
+
+  <p class="link">Do you need me to explain that again? <a href=index.html>Click here</a> for a reiteration.<p>
+
   </div>
  </body>
 </html>
+
+
+

@@ -1,14 +1,11 @@
-html {
+/* html {
   height: 100%;
-  background: url("../images/hal.jpg") no-repeat center center;
-  background-size: cover;
-  background-position-y: inherit;
   font-family: sans-serif;
   color: blue;
-}
+} */
 #container {
-  padding: 15px;
-  margin: 15px;
+  padding: 10px;
+  margin: 10px;
 }
 body {
   margin: 0;
@@ -16,15 +13,14 @@ body {
 }
 
 .jumbotron {
-  background-color: red;
-  margin: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-width: 10px;
-  border-color: #black;
-}
+  background: url("../images/hal.jpg") no-repeat center center;
+  margin: 0;
+  padding-top:10px;
+  padding-bottom: 10px
+  font: red; 
+ }
 
-.result {
+.output well {
   display: none;
 }
 
