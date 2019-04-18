@@ -1,7 +1,7 @@
 // Business logic
-  
+
      var userResult = [];
-     function Numbers(originalInput){
+     function hasNumbers(originalInput){
         return originalInput;
      }
 
@@ -25,9 +25,9 @@
  $(document).ready(function(){
     $("#formHal").submit(function(event){
   
-    var originalInput =parseInt($("input#userInput).val());
-    var isNumber=Numbers(originalInput);
-    var initialOutput= beepBoop(originalInput)
+    var originalInput = parseInt($("input#userInput").val());
+    var isNumber = hasNumbers(originalInput);
+    var finalOutput= beepBoop(originalInput)
    // $("#formHal")[0].reset();
   
    finalOutput=userResult.map(function(result){
@@ -36,12 +36,12 @@
 
     if (isNumber==false){
       alert("I told you to only use numbers, Dave");
-    } else if (originalInput<1){
-      alert("Silly human. You need to use positive numbers.")
-    } else {
+    } else if (originalInput <1){
+      alert("Silly human. You need to use positive numbers.");
+     } else {
      $("#result").append(finalOutput);
      $(".output").show();
-
+     }
      event.preventDefault();
      });
   });

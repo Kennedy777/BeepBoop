@@ -1,37 +1,41 @@
- html {
-  height: 100%;
-  font-family: sans-serif;
-} 
+.output{
+  display: none;
+}
+
+#formHal {
+  text-align: center;
+}
 
 #container {
   padding: 10px;
   margin: 10px;
 }
 
-body {
-  margin: 20px;
-  padding: 10px;
-}
-
 .jumbotron {
   color: red; 
   background: url("../images/hal.jpg") no-repeat center center;
-  margin: 0;
-  padding-top:10px;
-  padding-bottom: 10px;
- }
-
-.output  {
-  display: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  text-align: center;
+  font-family: "futura";
+  font-weight: bold;
 }
 
-.button {
-  border: none;
-  color: white;
-  float: center
-  margin-top: 15px;
+.well{
+  background-color: #085720;
+  border-color: #5bc0de;
+  font-family: "futura";
 }
 
-#result {
-  display: none;
+
+.panel {
+  border-color: #5bc0de;
+  font-family: "new baskerville";
+}
+
+.link {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
 }
