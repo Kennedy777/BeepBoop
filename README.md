@@ -10,7 +10,7 @@ HTML, CSS, Javascript, Bootstrap, jQuery
 Installation
 
 Open: https://kennedy777.github.io/BeepBoop/, or 
-Clone from: https://github.com/Kennedy777/beepboop, open index.html in any browser
+Clone from: https://github.com/Kennedy777/BeepBoop, open index.html in any browser
 
 Enter a number to get a message from the computer to "explain" the meaning of the number in his mind.
  
