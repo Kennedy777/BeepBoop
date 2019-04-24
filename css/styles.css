@@ -1,5 +1,17 @@
-.output{
+body {
+  background-color: #2cf811;
+  font-family: "futura";
+}
+
+#resultNum{
   display: none;
+  color: red;
+  border-width: medium; 
+} 
+
+#result{
+  color: black; 
+  font-weight: bold;
 }
 
 #formHal {
@@ -16,26 +28,15 @@
   background: url("../images/hal.jpg") no-repeat center center;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: white;
+  background-color: red;
   text-align: center;
   font-family: "futura";
   font-weight: bold;
-}
-
-.well{
-  background-color: #085720;
-  border-color: #5bc0de;
-  font-family: "futura";
-}
-
-
-.panel {
-  border-color: #5bc0de;
-  font-family: "new baskerville";
 }
 
 .link {
   text-align: center;
   font-weight: bold;
+  font-size: 1.5em; 
   font-style: italic;
 }

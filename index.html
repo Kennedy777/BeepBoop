@@ -13,38 +13,36 @@
   <body>
 
     <div class="container">
-    <div class="jumbotron">
+      
+      <div class="jumbotron">
       <h1>The HALsplainer...</h1>
-    </div>
-     <div class="row">
-       <div class="col-md-6"
-        <div class="panel panel-info">
-          <div class="panel-heading"><h3>Are you ready, Dave?</h3></div>
-          <div class="panel-body">
-          <p>Tell me a number you are thinking of, and I will tell you what it <b>REALLY</b> means!</p>
-        </div>
       </div>
+      <br>
+
+      <h3>Are you ready, Dave?</h3>
+         <br><br>
+          <h4>Tell me a number you are thinking of, and I will tell you what it <b>REALLY</b> means!</h4>
+          <br><br>
 
       <form id="formHal">
-      <div class="form-group">      
-       <label for="userInput"<h4>Enter here:</h4></label> <br>
- 
-       <p><input id="userInput" type="text" onClick="this.form.reset()">
+       <div class="form-group">      
+         <label for="userInput">Number, please?
+         </label>
+          <input id="userInput" type="numberInput">
        </div>
+
       <button type="submit" class="btn btn-danger btn-lg">Click NOW!!</button>
-     </form><br><br>
-    </div>
+      </form>
+      <br>
 
-  <div class="col-md-6">
-  <div class="output well">
-   <p><strong>Well, actually...</strong>I think you meant to say</p>
-   <ul id="result">
-    </ul>
-    <p class="link">Do you need me to explain that again? <a href=index.html>Click here</a> for a reiteration.<p>
-    </div>
+   <div id= "resultNum"> 
+      <h3><strong>Well, actually...</strong>I think   you meant to say: </h3>
+      <br><br>
+      <h4 id="result"></h4>
+      <br><br>
+    <p class="link">Do you need me to explain that again? <a href=index.html>Click here</a> for a reiteration.</p>
    </div>
 
-   </div>
   </div>
  </body>
 </html>

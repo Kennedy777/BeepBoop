@@ -1,47 +1,32 @@
 // Business logic
 
      var userResult = [];
-     function hasNumbers(originalInput){
-        return originalInput;
-     }
 
-     function beepBoop(originalInput){
-    
-     for (var i = 0; i <=originalInput; i++) {
-      if (i.includes(3)) {
-        userResult.push("I'm sorry, Dave, I can't do that.");
-      } else if(i.includes(2)) {
-        userResult.push("Boop!");
-      } else if(i.includes(1)){
-         userResult.push("Beep!");
-        } else {
-          userResult.push(i);
-        }
-     } return userResult
-      console.log(userResult);
-};
-
+    var beepBoop = function(number) {
+      if (number.toString().includes(3)==true) {
+         return "I'm sorry, Dave, I'm afraid I can't do that.";
+       } else if (number.toString().includes(2)==true) {
+         return "Boop!";
+       } else if (number.toString().includes(1)==true) {
+         return "Beep!";
+       } else {
+       return number.toString();
+        //  return " " + number.toString();
+        };
+     };
+   
  // UI Logic
  $(document).ready(function(){
     $("#formHal").submit(function(event){
-  
-    var originalInput = parseInt($("input#userInput").val());
-    var isNumber = hasNumbers(originalInput);
-    var finalOutput= beepBoop(originalInput)
-   // $("#formHal")[0].reset();
-  
-   finalOutput=userResult.map(function(result){
-     return "<li>" + result + "</li>"
-   });
-
-    if (isNumber==false){
-      alert("I told you to only use numbers, Dave");
-    } else if (originalInput <1){
-      alert("Silly human. You need to use positive numbers.");
-     } else {
-     $("#result").append(finalOutput);
-     $(".output").show();
-     }
      event.preventDefault();
+     $("#resultNum").show();
+     
+     var originalInput=$("#userInput").val();
+     for (var i=0; i<=originalInput; i++) {
+      userResult.push(beepBoop(i));
+     };
+
+     $("#result").text(userResult);
      });
   });
+
