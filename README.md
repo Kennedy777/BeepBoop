@@ -12,11 +12,16 @@ Starting at 0, HAL will give a list of the numbers up to and including the user'
 Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
 Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
+If neither a 1,2, or 3 is in a given number, it will return the original number. 
 
 
 ## Specs
 
-The above exceptions are written from least to most important.
+The above exceptions are written from *least to most important*. For example:
+
+If a user enters "13" the result will be all numbers from 0 to 13, with the replacements above. The number 13 (last on the outputted list) will return "I'm sorry, Dave, I can't do that." 
+
+Although 13 contains both a 1 and a 3, the result for a number containing 3 will be returned. 
 
 My strategy:
 
