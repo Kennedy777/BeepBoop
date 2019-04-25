@@ -1,12 +1,9 @@
 
-#The HALSplainer: Epicodus Week 3 Independent Project
+#### The HALSplainer: Epicodus Week 3 Independent Project
 
-### A simple interactive program/game. 
+### A simple interactive program/game by Marguerite Kennedy, April 12, 2019. 
 
-#### By **Marguerite Kennedy**
-#### April 12, 2019
-
-### Description
+## Description
 
 "HAL," the not-so-benevolent computer overlord from a movie that at the advice of our lawyers we'll just call "Two Thousand Fun: A Copyright Infringement Odessey" asks the user to enter a number. HAL then "computersplains" the meaning of that number in a string of *seeming* nonsense that follows very specific rules. 
 
@@ -16,7 +13,7 @@ Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
 Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
 
 
-### Specs
+## Specs
 
 The above exceptions are written from least to most important.
 
