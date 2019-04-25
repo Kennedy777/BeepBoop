@@ -1,7 +1,8 @@
 
-#### The HALSplainer: Epicodus Week 3 Independent Project
+# The HALSplainer: Epicodus Week 3 Independent Project
 
-### A simple interactive program/game by Marguerite Kennedy, April 12, 2019. 
+### A simple interactive program/game
+#### by Marguerite Kennedy, April 12, 2019
 
 ## Description
 
