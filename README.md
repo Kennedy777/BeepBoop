@@ -1,10 +1,10 @@
 
-#### The HALSplainer: Epicodus Week 3 Independent Project
+#The HALSplainer: Epicodus Week 3 Independent Project
 
 ### A simple interactive program/game. 
 
-## By **Marguerite Kennedy**
-## April 12, 2019
+#### By **Marguerite Kennedy**
+#### April 12, 2019
 
 ### Description
 
@@ -14,6 +14,7 @@ Starting at 0, HAL will give a list of the numbers up to and including the user'
 Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
 Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
+
 
 ### Specs
 
