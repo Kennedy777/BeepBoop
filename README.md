@@ -1,15 +1,12 @@
 
 #### The HALSplainer: Epicodus Week 3 Independent Project
 
-### by Marguerite Kennedy
-#April 5, 2019
+### A simple interactive program/game. 
 
-#### A simple interactive program/game. 
+## By **Marguerite Kennedy**
+## April 12, 2019
 
-#### By **Marguerite Kennedy**
-April 12, 2019
-
-## Description
+### Description
 
 "HAL," the not-so-benevolent computer overlord from a movie that at the advice of our lawyers we'll just call "Two Thousand Fun: A Copyright Infringement Odessey" asks the user to enter a number. HAL then "computersplains" the meaning of that number in a string of *seeming* nonsense that follows very specific rules. 
 
