@@ -19,9 +19,11 @@ If neither a 1,2, or 3 is in a given number, it will return the original number.
 
 The above exceptions are written from *least to most important*. For example:
 
-If a user enters "13" the result will be all numbers from 0 to 13, with the replacements above. The number 13 (last on the outputted list) will return "I'm sorry, Dave, I can't do that." 
+If a user enters "13" the result will be all numbers from 0 to 13, with the replacements above. The number 13 (last on the outputted list) will return "I'm sorry, Dave, I can't do that." Although 13 contains both a 1 and a 3, the result for a number containing 3 will be returned, because the 3 takes precedence. 
 
-Although 13 contains both a 1 and a 3, the result for a number containing 3 will be returned. 
+
+For example: user inputs a "7"
+Output will be: "0,Beep!,Boop!,I'm sorry, Dave, I'm afraid I can't do that.,4,5,6,7"
 
 My strategy:
 
